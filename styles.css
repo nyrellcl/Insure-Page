@@ -106,11 +106,23 @@ section.section-1-container {
   display: flex;
   align-items: center;
   color: var(--v-light-gray);
+  justify-content: center;
+}
+
+.title-container{
+  width: 80%;
 }
 
 h1.title {
   font-family: 'DM Serif Display', serif;
   font-size: 3rem;
-  width: 30%;
+  width: 60%;
   letter-spacing: 0.05rem;
+}
+
+p.title-description {
+  max-width: 50%;
+  font-family: 'Karla',sans-serif;
+  margin: 2rem 0;
+  line-height: 1.7rem;
 }
