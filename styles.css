@@ -110,7 +110,7 @@ section.section-1-container {
 }
 
 .title-container{
-  width: 80%;
+  width: 100%;
 }
 
 h1.title {
@@ -125,4 +125,15 @@ p.title-description {
   font-family: 'Karla',sans-serif;
   margin: 2rem 0;
   line-height: 1.7rem;
+}
+
+div#sub-section-2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+img.intro-img {
+  max-height: 500px;
 }
