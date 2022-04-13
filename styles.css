@@ -1,1 +1,41 @@
+/*Typography*/
 
+/*Headings*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+/*Body*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/*colors*/
+
+:root{
+  /*primary*/
+  --dark-violet: hsl(256, 26%, 20%);
+  --grayish-blue: hsl(216, 30%, 68%);
+  
+  /*Neutral*/
+  --v-dark-violet: hsl(270, 9%, 17%);
+  --dark-grayish-violet: hsl(273, 4%, 51%);
+  --v-light-gray: hsl(0, 0%, 98%);
+}
+
+/*header*/
+
+nav.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul.nav-list {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  gap: 2rem;
+  letter-spacing: 0.05rem;
+  font-family: 'Karla', sans-serif;
+}
+
+ul.nav-list a {
+  text-decoration: none;
+}
