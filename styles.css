@@ -40,15 +40,13 @@ ul.nav-list {
   gap: 2rem;
   letter-spacing: 0.05rem;
   font-family: 'Karla', sans-serif;
+  font-weight: 700;
 }
 
 ul.nav-list a {
   text-decoration: none;
+  color: var(--dark-grayish-violet);
   transition: all 250ms ease-in-out;
-}
-
-ul.nav-list a:link{
-  color: var(--v-light-gray);
 }
 
 ul.nav-list a:hover{
