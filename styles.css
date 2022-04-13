@@ -60,7 +60,7 @@ ul.nav-list a:hover{
 }
   
 
-/*button*/
+/*buttons*/
 button.btn {
   width: 120px;
   height: 40px;
@@ -78,6 +78,23 @@ button.btn:hover{
   border: none;
   cursor: pointer;
 }
+
+button.btn-2 {
+  width: 120px;
+  height: 40px;
+  font-family: 'Karla',sans-serif;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: inherit;
+  border: 2px solid var(--v-light-gray);
+  transition: all 250ms ease-in-out;
+}
+
+button.btn-2:hover{
+  background-color: #fff;
+  border: 2px solid #272626;
+  cursor: pointer;
+  color: #272626;
 
 /*section 1*/
 
