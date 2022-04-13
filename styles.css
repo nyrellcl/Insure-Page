@@ -44,4 +44,35 @@ ul.nav-list {
 
 ul.nav-list a {
   text-decoration: none;
+  transition: all 250ms ease-in-out;
 }
+
+ul.nav-list a:link{
+  color: var(--v-light-gray);
+}
+
+ul.nav-list a:hover{
+  cursor: pointer;
+  color: #272626;
+}
+  
+
+/*button*/
+button.btn {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid #272626;
+  font-family: 'Karla',sans-serif;
+  font-size: inherit;
+  text-transform: uppercase;
+  transition: all 250ms ease-in-out;
+}
+
+button.btn:hover{
+  background-color: #272626;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+  
