@@ -107,6 +107,9 @@ section.section-1-container {
   align-items: center;
   color: var(--v-light-gray);
   justify-content: center;
+  background-image: url('./Insure-imgs/bg-pattern-intro-right-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .title-container{
