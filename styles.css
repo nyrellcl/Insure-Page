@@ -111,12 +111,15 @@ section.section-1-container {
 
 .title-container{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1.title {
   font-family: 'DM Serif Display', serif;
   font-size: 3rem;
-  width: 60%;
+  width: 50%;
   letter-spacing: 0.05rem;
 }
 
