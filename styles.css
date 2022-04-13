@@ -121,6 +121,7 @@ h1.title {
   font-size: 3rem;
   width: 50%;
   letter-spacing: 0.05rem;
+  margin: 0;
 }
 
 p.title-description {
