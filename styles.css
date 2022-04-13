@@ -19,6 +19,10 @@
   --v-light-gray: hsl(0, 0%, 98%);
 }
 
+body{
+  margin: 0;
+}
+
 /*header*/
 
 nav.nav-bar {
