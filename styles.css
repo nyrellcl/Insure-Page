@@ -259,7 +259,6 @@ section.company-info-container {
   color: var(--grayish-blue);
   letter-spacing: 0.1rem;
   display: flex;
-  justify-content: center;
 }
 
 ul.company-list {
