@@ -372,6 +372,11 @@ ul.company-list li a:hover{
 /*Mobile*/
 
 @media only screen and (max-width: 500px){
+  
+  body{
+    overflow-x: hidden;
+  }
+  
   section.section-1-container{
     height: auto;
     flex-direction: column-reverse;
@@ -461,10 +466,6 @@ ul.company-list li a:hover{
   .mobile-menu{
     list-style: none;
     font-family: 'Karla', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     color: var(--grayish-blue);
   }
   
