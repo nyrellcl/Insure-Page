@@ -451,12 +451,16 @@ ul.company-list li a:hover{
     display: none;
   }
   
+  img.logo-img {
+    margin-left: 1rem;
+}
+  
   .ham-container{
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
     padding: 0;
   }
   
