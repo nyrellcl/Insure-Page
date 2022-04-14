@@ -218,5 +218,14 @@ section.section-3-container {
   font-size: 1.65rem;
 }
 
+/*Footer*/
+
+span.bar {
+  width: 80%;
+  background-color: var(--v-dark-violet);
+  height: 1px;
+  margin-top: 5rem;
+}
+
 
 
