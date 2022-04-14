@@ -338,6 +338,9 @@ ul.company-list li a:hover{
   flex-direction: column; /*stacks each link on top of each other on mobile*/
   align-items: center;
   justify-content: flex-start;
+  list-style: none;
+  font-family: 'Karla', sans-serif;
+  color: var(--grayish-blue);
 }
 
 .open .mobile-menu li {
@@ -361,8 +364,9 @@ ul.company-list li a:hover{
   /*sets the background of the menu once user opens the icon. I want to make this transition more seamless. (future update)*/
   background-color: white;
 }
-.mobile-menu a {
-  color: black;
+.mobile-menu li a {
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .mobile-menu li {
@@ -463,16 +467,7 @@ ul.company-list li a:hover{
     background-color: var(--dark-violet);
   }
   
-  .mobile-menu{
-    list-style: none;
-    font-family: 'Karla', sans-serif;
-    color: var(--grayish-blue);
-  }
-  
-  .mobile-menu li a{
-    text-decoration: none;
-    font-weight: 700;
-  }
+ 
     
   
   span.bar{
