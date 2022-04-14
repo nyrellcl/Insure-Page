@@ -275,7 +275,14 @@ ul.company-list {
 ul.company-list li a{
   text-decoration: none;
   color: var(--v-dark-violet);
+  font-weight: 700;
 }
+
+ul.company-list li a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 
 
 
