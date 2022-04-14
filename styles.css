@@ -223,6 +223,7 @@ section.section-3-container {
 footer.footer-container {
   background-image: url(./Insure-imgs/bg-pattern-footer-desktop.svg);
   background-repeat: no-repeat;
+  background-color: #e6e6e645;
 }
 
 .contacts {
@@ -230,6 +231,7 @@ footer.footer-container {
   align-items: center;
   justify-content: space-between;
   margin: 0 10rem;
+  padding-top: 5rem;
 }
 
 .contact-list {
@@ -240,7 +242,7 @@ footer.footer-container {
 
 span.bar {
   width: 80%;
-  background-color: var(--v-dark-violet);
+  background-color: hsl(0deg 0% 70%);
   height: 1px;
   margin-top: 5rem;
   display: inline-block;
@@ -250,7 +252,8 @@ span.bar {
 section.company-info-container {
   display: flex;
   justify-content: space-between;
-  margin: 5rem 10rem;
+  margin: 5rem 10rem 0;
+  padding-bottom: 5rem;
 }
 
 .company-info {
