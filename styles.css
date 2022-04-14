@@ -147,6 +147,10 @@ img.intro-img {
 
 /*Section-2*/
 
+section.section-2-container {
+  margin: 10rem;
+}
+
 .section-2-title {
   font-family: 'DM Serif Display', serif;
   font-size: 2rem;
