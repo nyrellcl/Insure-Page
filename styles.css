@@ -374,7 +374,15 @@ ul.company-list li a:hover{
 @media only screen and (max-width: 500px){
   section.section-1-container{
     height: auto;
-    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  
+  section.section-2-container {
+    margin: 1rem;
+  }
+  
+  .section-2-title{
+    text-align: center;
   }
   
   div#sub-section-2{
@@ -387,6 +395,15 @@ ul.company-list li a:hover{
     align-items: flex-start;
   }
   
+  .title-container{
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  
+  h1.title{
+    width: 100%;
+  }
+  
   .contacts{
     flex-direction: column;
     align-items: center;
@@ -397,7 +414,19 @@ ul.company-list li a:hover{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0;
   }
+  
+  section.section-3-container{
+    margin: 5rem 0;
+  }
+  
+  .work-container{
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 0;
+  }
+    
   
   nav.nav-bar {
     display: none;
@@ -407,11 +436,22 @@ ul.company-list li a:hover{
     display: flex;
     padding: 1rem;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
   }
   
   #ham-icon {
     display: block;
     margin-right: 1rem;
+  }
+  
+  #ham-icon div{
+    background-color: var(--dark-violet);
+  }
+  
+  span.bar{
+    width: 100%;
+    margin: 0;
   }
 }
 
