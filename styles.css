@@ -262,6 +262,7 @@ section.company-info-container {
   color: var(--grayish-blue);
   letter-spacing: 0.1rem;
   display: flex;
+  justify-content: center;
 }
 
 ul.company-list {
@@ -341,6 +342,7 @@ ul.company-list li a:hover{
   list-style: none;
   font-family: 'Karla', sans-serif;
   color: var(--grayish-blue);
+  padding: 0;
 }
 
 .open .mobile-menu li {
@@ -438,8 +440,11 @@ ul.company-list li a:hover{
   .work-container{
     flex-direction: column;
     text-align: center;
-    padding: 2rem 0;
   }
+  
+  .work-btn-container {
+    padding-bottom: 1rem;
+}
   
   .work-title {
     margin: 0 1rem;
