@@ -398,11 +398,16 @@ ul.company-list li a:hover{
   .title-container{
     text-align: center;
     padding-bottom: 3rem;
+    margin-top: 5rem;
   }
   
   h1.title{
     width: 100%;
   }
+  
+  img.intro-img {
+    width: 100%;
+}
   
   .contacts{
     flex-direction: column;
@@ -425,6 +430,10 @@ ul.company-list li a:hover{
     flex-direction: column;
     text-align: center;
     padding: 2rem 0;
+  }
+  
+  .work-title {
+    margin: 0 1rem;
   }
     
   
@@ -451,7 +460,7 @@ ul.company-list li a:hover{
   
   span.bar{
     width: 100%;
-    margin: 0;
+    margin: 2rem 0;
   }
 }
 
