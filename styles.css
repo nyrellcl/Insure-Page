@@ -144,3 +144,34 @@ div#sub-section-2 {
 img.intro-img {
   max-height: 500px;
 }
+
+/*Section-2*/
+
+.section-2-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2rem;
+  color: var(--v-dark-violet);
+  letter-spacing: 0.05rem;
+}
+
+.icon-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 3rem;
+}
+
+h2.card-headings {
+  font-family: 'DM Serif Display', serif;
+  color: var(--v-dark-violet);
+  letter-spacing: 0.05rem;
+}
+
+p.card-details {
+  font-family: 'Karla', sans-serif;
+  line-height: 1.5rem;
+  color: var(--grayish-blue);
+}
+
+
