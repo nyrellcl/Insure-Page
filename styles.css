@@ -286,6 +286,89 @@ ul.company-list li a:hover{
   cursor: pointer;
 }
 
+/*Ham icon*/
+
+#ham-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#ham-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.ham-container {
+  width: 100%;
+  padding: 1rem 0 0 1rem;
+  display: none;
+}
+
+.mobile-contact{
+  background-color: hsl(51, 100%, 49%);
+  border-radius: 40px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+/*will rotate counterclockwise once user presses the icon which will form an X along with bar2*/
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+/*will 'disappear' the user clicks on the icon*/
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+/*once user opens the icon the links will display in a stacked view*/
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column; /*stacks each link on top of each other on mobile*/
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.open .mobile-menu li {
+    padding: 0.5rem;
+}
+
+.mobile-menu li a{
+  color: hsl(213, 9%, 39%);
+}
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 50px; /*fixed height of header*/
+  left: 0;
+  height: calc(
+    70vh - 50px
+  ); /*takes the full remaining space of site hence width 100. set the height to 100 and subtract it from the height of header*/
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  /*sets the background of the menu once user opens the icon. I want to make this transition more seamless. (future update)*/
+  background-color: white;
+}
+.mobile-menu a {
+  color: black;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
 /*Mobile*/
 
 @media only screen and (max-width: 500px){
@@ -314,6 +397,21 @@ ul.company-list li a:hover{
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  
+  .nav-bar {
+    display: none;
+  }
+  
+  .ham-container{
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  #ham-icon {
+    display: block;
+    margin-right: 1rem;
   }
 }
 
