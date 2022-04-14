@@ -458,6 +458,22 @@ ul.company-list li a:hover{
     background-color: var(--dark-violet);
   }
   
+  .mobile-menu{
+    list-style: none;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--grayish-blue);
+  }
+  
+  .mobile-menu li a{
+    text-decoration: none;
+    font-weight: 700;
+  }
+    
+  
   span.bar{
     width: 100%;
     margin: 2rem 0;
