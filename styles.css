@@ -422,8 +422,14 @@ ul.company-list li a:hover{
     margin-top: 5rem;
   }
   
+  .bar-container{
+    width: 100%;
+    justify-content: center;
+  }
+  
   span.title-bar{
     width: 30%;
+    margin-top: 5rem;
   }
   
   h1.title{
