@@ -417,9 +417,14 @@ ul.company-list li a:hover{
     margin-top: 5rem;
   }
   
+  span.title-bar{
+    width: 30%;
+  }
+  
   h1.title{
     width: 100%;
   }
+  
   
   img.intro-img {
     width: 100%;
@@ -436,6 +441,10 @@ ul.company-list li a:hover{
     align-items: center;
     text-align: center;
     margin: 0;
+  }
+  
+  .section-2-title h2{
+    margin-top: 0;
   }
   
   section.section-3-container{
