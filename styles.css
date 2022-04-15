@@ -129,6 +129,13 @@ section.section-1-container {
   background-position: right;
 }
 
+span.title-bar {
+  width: 10%;
+  background-color: var(--grayish-blue);
+  height: 2px;
+  display: inline-block;
+}
+
 .title-container{
   width: 100%;
   display: flex;
