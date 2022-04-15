@@ -483,6 +483,9 @@ ul.company-list li a:hover{
   img.logo-img {
     margin-left: 1rem;
 }
+  img.logo-img-2 {
+    margin-left: 0;
+}
   
   .ham-container{
     display: flex;
