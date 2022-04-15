@@ -249,6 +249,11 @@ footer.footer-container {
   align-items: center;
 }
 
+.bar-container {
+  display: flex;
+  width: 50%;
+}
+
 span.bar {
   width: 80%;
   background-color: hsl(0deg 0% 70%);
