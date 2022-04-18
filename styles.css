@@ -130,6 +130,13 @@ section.section-1-container {
 }
 
 span.title-bar {
+  width: 15%;
+  background-color: var(--grayish-blue);
+  height: 2px;
+  display: inline-block;
+}
+
+span.title-bar-2 {
   width: 10%;
   background-color: var(--grayish-blue);
   height: 2px;
