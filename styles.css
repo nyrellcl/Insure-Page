@@ -69,6 +69,7 @@ button.btn {
   font-family: 'Karla',sans-serif;
   font-size: inherit;
   text-transform: uppercase;
+  transition: all 200ms ease-in;
 }
 
 button.btn:hover{
@@ -87,6 +88,7 @@ button.btn-2 {
   color: inherit;
   border: 2px solid var(--v-light-gray);
   font-size: inherit;
+  transition: all 200ms ease-in;
 }
 
 button.btn-2:hover{
@@ -105,6 +107,7 @@ button.work-btn {
   color: var(--v-light-gray);
   border: 2px solid var(--v-light-gray);
   font-size: inherit;
+  transition: all 200ms ease-in;
 }
 
 button.work-btn:hover{
